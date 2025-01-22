@@ -406,6 +406,17 @@ section{
 .footer-social{
     margin-top: 2rem;
 }
+.head-line{
+    font-family: "Quicksand", serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color:white;
+    background-color: #01ACFD;
+    margin-bottom: 0px;
+    word-spacing: 5px;
+    padding-bottom:20px;
+    border: 1px solid rgb(202, 120, 26);
+}
 
 @media  screen and (max-width:576px){
                           /* nav-container */
@@ -512,5 +523,66 @@ section{
 .box-4{
     display: flex;
     flex-direction: column;
+ 
 }
+.story-2{
+    border: 1px solid rgb(230, 222, 222);
+    height: 11.18rem;
+    width: 10.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-date{
+    font-family: "Quicksand", serif;
+    border-radius: 2.99rem;
+    font-size: 0.625rem;
+    font-weight: 500;
+    background: rgb(60, 216, 232);
+    width: 6.437rem;
+    height:1.42rem;
+    color: #FFFFFF;
+    text-align: center;
+    justify-items: center;
+    padding-top: 5px;
+    position: relative;
+    left: 1.41rem;
+    top: -20px
+    
+}
+.story-titel{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 0.59rem;
+    margin-top: 0.8rem;
+    padding-left: 1.43rem;
+    color: #000;
+    margin-bottom: 1.20rem;
+}
+.story-3{
+    border: 1px solid rgb(230, 222, 222);
+    height: 11.18rem;
+    width: 10.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-4{
+    border: 1px solid rgb(230, 222, 222);
+    height: 11.18rem;
+    width: 10.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-5{
+    border: 1px solid rgb(230, 222, 222);
+    height: 11.18rem;
+    width: 10.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-img-1{
+    border-radius:  1rem 1rem 0 0;
+    width: 10.81rem;
+    height: 6.56rem;
+}
+
 }
