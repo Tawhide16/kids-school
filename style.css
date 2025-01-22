@@ -123,7 +123,8 @@ hr{
 
 .Curriculum-container{
     display: flex;
-    justify-content: space-evenly;
+    gap: 30px;
+    justify-content:center
 }
 .Curriculum-titel{
     font-family: "Quicksand", serif;
@@ -207,7 +208,7 @@ section{
     background-image: url("assets/bg.png");
 }
                            /* <!-- story-container --> */
-.story-titel{
+.story-titel-1{
     font-family: "Quicksand", serif;
     font-weight: 700;
     font-size: 2.87rem;
@@ -215,6 +216,138 @@ section{
     text-align: center;
     margin-top: 7.5rem;
 }
+.story-1{
+    border: 1px solid rgb(230, 222, 222);
+    width: 33.75rem;
+    height: 39.37rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-2{
+    border: 1px solid rgb(230, 222, 222);
+    width: 18.12rem;
+    height: 18.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-3{
+    border: 1px solid rgb(230, 222, 222);
+    width: 18.12rem;
+    height: 18.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-4{
+    border: 1px solid rgb(230, 222, 222);
+    width: 18.12rem;
+    height: 18.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-5{
+    border: 1px solid rgb(230, 222, 222);
+    width: 18.12rem;
+    height: 18.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-img-1{
+    border-radius:  1rem 1rem 0 0;
+}
+.story-1-date{
+    font-family: "Quicksand", serif;
+    border-radius: 2.99rem;
+    background: rgb(60, 216, 232);
+    width: 10.87rem;
+    height:1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    justify-items: center;
+    padding-top: 5px;
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+.story-1-titel{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2.28rem;
+    padding-left: 2.39rem;
+}
+.story-1-text{
+    font-family: "Quicksand", serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-top: 3.235rem;
+    color: #666666;
+    padding-left: 2.39rem;
+}
+.story-date{
+    font-family: "Quicksand", serif;
+    border-radius: 2.99rem;
+    background: rgb(60, 216, 232);
+    width: 10.87rem;
+    height:1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    justify-items: center;
+    padding-top: 5px;
+    position: relative;
+    left: 2.36rem;
+    top: -20px
+}
+.story-titel{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 0.93rem;
+    margin-top: 1rem;
+    padding-left: 2.36rem;
+    color: #000;
+    margin-bottom: 2.023rem;
+}
+.date-color{
+    background-color: #95B226;
+}
+.date-color-2{
+    background-color: #5D58F0;
+}
+.box-22{
+    display: flex;
+    gap: 20px;
+    
+}
+.box-33{
+    gap: 20px ;
+    display: flex;
+    margin-top:20px;
+   
+}
+.aa{
+    display: flex;
+    gap:20px;
+    justify-content:center;
+    margin-top: 80px;
+   
+}
+.story-btn{
+    font-family: "Quicksand", serif;
+    height:3.125rem;
+    width: 12.31rem;
+    background-color: #000;
+    color: white;
+    border-radius: 12px;
+}
+.story-btn-box{
+    margin-top: 88px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.total-container{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+
                         /* <!-- story-container-end --> */
 
                      /* footer- */
@@ -229,8 +362,8 @@ section{
 }
 .footer-titel{
     font-family: "Quicksand", serif;
-    font-weight: 700;
-    font-size: 2.63rem;
+    font-weight: 600;
+    font-size: 2rem;
     color:#FFFFFF;
     flex: none;
 }
@@ -340,28 +473,44 @@ section{
 .Curriculum-box-3{
     margin-top: 0.678rem;
 }
+.arro-btn{
+    display: none;
+}
 /* <!-- footer-section --> */
 .footer-cintainer{
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     background-color: #01ACFD;
     width: 100%;
     height: auto;
+   
 }
 .footer-box-1{
     margin-top: 4.125rem;
-    padding-right: 20px;
+    padding-left: 20px;
 }
-.footer-cintainer>.footer-box-2{
+.footer-box-2{
     margin-top: 2rem;
     padding-right: 20px;
     text-align: left;
-    padding-right: 20px;
+    padding-left: 20px;
 }
 .footer-box-3{
     margin-top: 2rem;
     text-align: left;
-    padding-right: 20px;
+    padding-left: 20px;  
+}
+.footer-text{
+    font-size: 1rem;
+    padding-left: 20px;
 }
 
+/* story */
+.story-1{
+    display: none;
+}
+.box-4{
+    display: flex;
+    flex-direction: column;
+}
 }

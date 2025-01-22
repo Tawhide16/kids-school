@@ -1,0 +1,110 @@
+.story-1{
+    border: 1px solid rgb(230, 222, 222);
+    width: 33.75rem;
+    height: 39.37rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-2{
+    border: 1px solid rgb(230, 222, 222);
+    width: 18.12rem;
+    height: 18.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-3{
+    border: 1px solid rgb(230, 222, 222);
+    width: 18.12rem;
+    height: 18.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-4{
+    border: 1px solid rgb(230, 222, 222);
+    width: 18.12rem;
+    height: 18.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-5{
+    border: 1px solid rgb(230, 222, 222);
+    width: 18.12rem;
+    height: 18.81rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+}
+.story-img-1{
+    border-radius:  1rem 1rem 0 0;
+}
+.story-1-date{
+    font-family: "Quicksand", serif;
+    border-radius: 2.99rem;
+    background: rgb(60, 216, 232);
+    width: 10.87rem;
+    height:1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    justify-items: center;
+    padding-top: 5px;
+    position: relative;
+    left: 20px;
+    top: -35px;
+}
+.story-1-titel{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2.28rem;
+    padding-left: 2.39rem;
+}
+.story-1-text{
+    font-family: "Quicksand", serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-top: 3.235rem;
+    color: #666666;
+    padding-left: 2.39rem;
+}
+.story-date{
+    font-family: "Quicksand", serif;
+    border-radius: 2.99rem;
+    background: rgb(60, 216, 232);
+    width: 10.87rem;
+    height:1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    justify-items: center;
+    padding-top: 5px;
+    position: relative;
+    left: 2.36rem;
+    top: -30px
+}
+.story-titel{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 0.93rem;
+    margin-top: 1rem;
+    padding-left: 2.36rem;
+    color: #000;
+    margin-bottom: 2.023rem;
+}
+.date-color{
+    background-color: #95B226;
+}
+.date-color-2{
+    background-color: #5D58F0;
+}
+.box-22{
+    display: flex;
+    gap: 20px;
+}
+.box-33{
+    gap: 20px ;
+    display: flex;
+    margin-top:20px;
+}
+.aa{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
